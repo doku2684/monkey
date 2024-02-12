@@ -1,5 +1,6 @@
 package token
 
+
 type TokenType string
 
 type Token struct {
@@ -14,6 +15,7 @@ const (
   // Identifiers and literals
   IDENT = "IDENT" // add, foobar, x, y
   INT = "INT" // 153245
+  STRING = "STRING"
 
   // Operators
   ASSIGN = "="
